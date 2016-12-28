@@ -10,7 +10,7 @@ namespace ControlProject
     {
         public static void Pairs(int[] ints)
         {
-            var a = ints.Join(ints, i1 => i1, i2 => i2, (i1, i2) => new { i1, i2 });
+            var a = ints.Join(ints, i1 => ints, i2 => ints, (i1, i2) => new { i1, i2 });
         }
     }
 }
