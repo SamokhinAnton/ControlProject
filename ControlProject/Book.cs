@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControlProject.Model
+namespace ControlProject
 {
-    class CommentModel
+    class Book
     {
         public string Name { get; set; }
-        public string Comment { get; set; }
-        public DateTime Created { get; set; }
+        public string Author { get; set; }
+        public int Year { get; set; }
     }
 }
